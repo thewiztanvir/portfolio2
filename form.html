@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sing Up Now</title>
+	<link rel="icon" href="image/favicon.png" type="image/gif" sizes="16x16 32x32">
+	<link rel="stylesheet" href="css/form.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="form">
+			<div class="circle">
+				<label>
+				<i class="fas fa-camera tanvir"></i>
+				<!-- <img id="cover-img" src="" alt="">
+				<input type="file" onchange="previewImage(event)" accept="image/*"> -->
+				</label>
+			</div>
+			<h1>Register Account</h1>
+			
+			<form>
+				<div class="name">
+					<label>
+						<i class="far fa-user"></i>
+						<input type="text" placeholder="Your Name">
+					</label>
+				</div>
+
+				<div class="username">
+					<label>
+						<i class="fas fa-user-edit"></i>
+						<input type="text" placeholder="@username">
+					</label>
+				</div>
+
+				<div class="email">
+					<label>
+						<i class="far fa-envelope"></i>
+						<input type="email" placeholder="Your Email">
+					</label>
+				</div>
+
+				<div class="password">
+					<label>
+						<i class="fas fa-lock"></i>
+						<input type="password" placeholder="Password">
+					</label>
+				</div>
+
+				<div class="password">
+					<label>
+						<i class="fas fa-lock"></i>
+						<input type="password" placeholder="Confirm Password">
+					</label>
+				</div>
+				<label for="button">
+				<button class="button"><a href="#">Register</a></button>
+				</label>
+			</form>
+		</div>
+	</div>
+
+<!-- 
+	<script>
+		function previewImage(event) {
+			var reader = new FileReader();
+			var imageField = document.getElementById("cover-img")
+
+			reader.onload = function() {
+				if (reader.readyState == 2) {
+					imageField.src = reader.result;
+				}
+			}
+			reader.readAsDataURL(event.target.files[0]);
+		}
+	</script> -->
+</body>
+</html>
